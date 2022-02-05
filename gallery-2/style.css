@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: white;
+	transition: 1s;
+}
+
+#firstsection{
+	min-height: 100vh;
+	width: 100%;
+background-color: black;
+}
+#navbar{
+	height: 20vh;
+	width: 100%;
+	
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+}
+#navul{
+	width: 80%;
+	min-height: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.navuli{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 25px;
+	list-style: none;
+	min-width: 100px;
+
+}
+.navuli div{
+	width:0%;
+	height: 5px;
+	background-color: white;
+}
+.navuli:hover div{
+	width:100%;
+}
+
+
+.navuli a{
+	text-decoration: none;
+}
+.videocontainer{
+	width: 320px;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	text-align: center;
+
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	border-radius: 20%;
+}
+
+.videosrc{
+	width: 320px;
+	height: 180px;
+	border-radius: 20%;
+}
+
+.videoline{
+	width: 5px;
+	height: 0px;
+	background-color: white;
+	border-radius: 20%;
+
+}
+
+.videocontainer:hover .videoline{
+	height: 100px;
+}
+.videosrc:hover{
+	width: 380px;
+	height: 250px;
+	z-index: 1000;
+}
+.videosection{
+	width: 100%;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+

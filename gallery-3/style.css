@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	transition: 1s;
+}
+
+section{
+	min-height: 100vh;
+	width: 100%;
+	background: rgb(4,1,4);
+background: linear-gradient(14deg, rgba(4,1,4,0.8130602582830007) 51%, rgba(147,173,237,1) 99%);
+
+}
+
+.upper-div{
+	height: 30vh;
+	display: block;
+	width: 100%;
+	background:url("back.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.lower-div{
+	min-height: 70vh;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.info{
+	width: 40%;
+	font-family: cursive;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+.info h1{
+	font-size: 45px;
+}
+
+.card-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin-top: 30px;
+	flex-wrap: wrap;
+}
+
+.contain{
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	position: relative;
+	cursor: pointer;
+	transition: 0.5s;
+	overflow: hidden;
+	margin: 30px;
+}
+
+.contain:hover .card-info{
+	display: flex;
+	height: 100%;
+}
+
+.card-info:hover p{
+	font-size: 17px;
+}
+
+#woman-one{
+	background: url("1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+#woman-two{
+	background: url("2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#woman-three{
+	background: url("3.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#woman-four{
+	background: url("4.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.card-info{	
+	height: 30%;
+	width: 100%;
+	background: rgb(222,99,217);
+	background: linear-gradient(23deg, rgba(222,99,217,1) 0%, rgba(255,35,35,0.4713235636051295) 99%);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	overflow: hidden;
+
+}
+.card-info h4{
+	font-family: 'Moon Dance', cursive;
+	font-size: 50px;
+
+}
+.svg-container{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+i{
+	color: white;
+	font-size: 25px;
+	
+}
+
+.card-info p{
+	width: 50%;
+	font-size: 17px;
+	font-size: 1px;
+}
+
